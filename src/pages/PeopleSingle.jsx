@@ -21,9 +21,9 @@ const PeopleSingle = () => {
   }, [id]);
 
   return <div className="grid grid-cols-12 gap-5 max-w-5xl mx-auto md:mt-64 mt-36 md:mb-64 mb-36">
-    <div className="col-span-12 lg:col-span-4">
+    <div className="col-span-12 lg:col-span-4 flex items-center justify-center">
         <div>
-            <img src={ImgURL('w780' , personDetails?.profile_path)} className="rounded-lg"/>
+            <img src={ImgURL('w780' , personDetails?.profile_path)} className="rounded-lg w-[400px] h-[500px] md:w-full md:h-full"/>
         </div>
     </div>
     <div className="col-span-12 lg:col-span-8">

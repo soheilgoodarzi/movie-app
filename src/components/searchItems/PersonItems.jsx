@@ -10,12 +10,12 @@ const PersonItems = ({ data }) => {
     >
       <div>
         {data?.profile_path === null ? (
-          <div className="rounded-full flex items-center justify-center md:h-[50px] md:w-[50px] h-[30px] w-[30px] bg-user">
-            <User className="text-gray-400" size={30} />
+          <div className="rounded-full flex items-center justify-center h-[30px] w-[30px] md:h-[50px] md:w-[50px] bg-user">
+            <User className="text-gray-400" size={25} />
           </div>
         ) : (
           <img
-            className="rounded-full h-[30px] md:h-[30px] md:w-[50px] object-cover group-hover:scale-105"
+            className="rounded-full h-[30px] w-[30px] md:h-[50px] md:w-[50px] object-cover group-hover:scale-105"
             src={ImgURL("w154", data.profile_path)}
           />
         )}

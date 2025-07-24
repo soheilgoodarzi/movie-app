@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="flex justify-center gap-4">
           <Link 
             to="/movies" 
-            className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full transition-colors"
+            className="bg-green-500 hover:bg-green-700 text-white text-sm md:text-2xl font-bold text-nowrap py-3 px-8 rounded-full transition-colors "
           >
             Discover Movies
           </Link>

@@ -6,7 +6,7 @@ const TvItems = ({ data }) => {
   return (
     <Link
       to={`/tvshow/${data.id}`}
-      className="flex items-center gap-2 border-b border-yellow-100 pb-3 group transition-all duration-300 hover:border-yellow-800"
+      className="flex items-center gap-2 border-b border-yellow-100 pb-3 group transition-all duration-300 hover:green-yellow-500"
     >
       <div>
         {data?.poster_path === null ? (

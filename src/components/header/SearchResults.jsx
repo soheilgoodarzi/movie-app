@@ -28,7 +28,7 @@ const SearchResults = ({ searchData, query, setSearchData }) => {
     <div
       className={`absolute left-1/2 -translate-x-1/2 w-full max-w-2xl  shadow-2xl overflow-y-auto transition-all rounded-lg duration-500 z-20 custom-scrollbar ${
         searchData.length && query.length
-          ? "h-auto md:max-h-60 max-h-40"
+          ? "h-auto md:max-h-52 xs:max-h-28 sm:max-h-40 lg:max-h-60 "
           : "h-0"
       }`}
     >

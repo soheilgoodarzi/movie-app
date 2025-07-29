@@ -1,14 +1,11 @@
 Sow Movies - A Movie & TV Show Discovery App
 A modern and responsive web application for searching and discovering movies and TV shows, built with React and the TMDB API.
 
-🚀 Live Demo
-Check out the live version of the project deployed on Vercel:
+**[🚀 View Live Demo](https://movie-app-delta-seven-43.vercel.app)**
+<img width="1896" height="859" alt="Screenshot 2025-07-30 001111" src="https://github.com/user-attachments/assets/48c18c9c-c693-4855-8c3f-70bded502145" />
 
-https://movie-app-delta-seven-43.vercel.app
 
-(Please replace the link above with your actual Vercel deployment URL)
-
-🌟 Features
+✨ Features
 Cinematic Hero Section: An engaging entry point with a dynamic background on the homepage.
 
 Advanced Search: Live search functionality for movies, TV shows, and actors, optimized with debouncing to enhance performance.
@@ -40,33 +37,28 @@ State Management: React Context
 
 Notifications: React Hot Toast
 
-🚀 Local Setup
-To run this project on your local machine, follow these steps:
+🚀 Getting Started
+To run this project locally, follow these steps:
 
-Clone the project:
+Clone the repository:
 
 git clone https://github.com/soheilgoodarzi/movie-app.git
 
-
-Navigate into the project directory:
+Navigate to the project directory:
 
 cd movie-app
-
 
 Install dependencies:
 
 npm install
 
-
 Create a .env file: In the project root, create a file named .env and add your API key from the TMDB website:
 
 VITE_API_KEY=32313ce28319d492025b3bdf4df346db
 
-
-Run the project:
+Run the development server:
 
 npm run dev
-
 
 The application should now be available at http://localhost:5173.
 
